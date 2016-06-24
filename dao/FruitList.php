@@ -2,12 +2,16 @@
 
 class FruitList{
 
-     public $fruits = array();
+
+        public $basket;
+        public $fruits = array();
 
     public function __construct(array $fruits)
     {
         $this->fruits = $fruits;
     }
+
+
 
 
 }
